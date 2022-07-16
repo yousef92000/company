@@ -1,0 +1,265 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+* , *::before , *::after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Courgette', cursive;
+}
+main{
+    width: 90%;
+    min-height: 500px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+ .row{
+    clear: both;
+} 
+:root{
+    scroll-behavior: smooth;
+}
+/*start footer*/
+header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    z-index: 5;
+}
+.icon{
+    width: 20%;
+    height: 90px;
+    position: absolute;
+    left: 5px;
+}
+.icon img{
+    width: 30%;
+}
+nav{
+    width: 55%;
+    float: right;
+    padding-left: 60px;
+    margin-top: 25px;
+    /* background-color: #000; */
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    width: 130px;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+nav ul a li {
+    display: block;
+    text-decoration: none;
+    color: #797979;
+    font-size: large;
+}
+nav ul a li:hover{
+    background:#f4f4f4;
+    color: black;
+    background-blend-mode: multiply;
+    transition: 1s;
+}
+.box2{
+    right: 150px;
+}
+.box3{
+    right: 50px;
+}
+header .spans a{
+    width: 80px;
+    height: 22px;
+    position: absolute;
+    top: calc( 50% - 11px);
+    color:#f9f9f9;
+    background: #e38788 ;
+    text-decoration: none; 
+    border-radius: 14px;
+    padding: 0px 14px;
+}
+header span{
+    text-align: center;
+} 
+header a:hover{
+    background:#f9f9f9;
+    color: #e38788 ;
+    transition: 1s;
+}
+/*end header*/
+/*start section 1*/
+.select1{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    margin: auto;
+    background: url(../images/1.jpg) no-repeat center/cover;
+    overflow: hidden;
+}
+.article2{
+    width: 60%;
+    height: 500px;
+    position: absolute;
+    bottom: 0px;
+    right: calc( 50% - 60%/2);
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+}
+.article2 p , h2{
+    color: #f9f9f9;
+}
+.article2 h2{
+    text-align: center;
+    font-size: 35px;
+}
+.article2 p{
+    font-size: 24px;
+    padding: 20px;
+    line-height: 35px;
+}
+/*end section 1*/
+/*start section 2*/
+.select2{
+    width: 100%;
+    height: 750px;
+    position: relative;
+    margin: auto;
+    background: #ebe7e8;
+    margin: 15px 0px 15px 0px;
+    overflow: hidden;
+}
+.article{
+    width: 60%;
+    height: 450px;
+    position: absolute;
+    right: 0px;
+    bottom: 60px;
+    background-color: #f9f9f9;
+}
+.article h2 , p{
+    color: #000;
+}
+.article h2{
+    text-align: center;
+    font-size: 35px;
+}
+.article p{
+    font-size: 20px;
+    padding: 15px;
+}
+.select2 .divimg5{
+    width: 50%;
+    position: absolute;
+    top: 15px;
+}
+.select2 img{
+    width: 110%;
+}
+/*end section 2*/
+/*start selection 3*/
+.select3{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    margin: auto;
+    background: url(../images/3.jpg) no-repeat center/cover;
+    overflow: hidden;
+}
+.divh2{
+    width: 30%;
+    height: 70px;
+    position: absolute;
+    left: 140px;
+    bottom: 53%;
+    text-align: center;
+}
+.select3 h2{
+    font-size: 40px;
+    position: absolute;
+    right: 5px;
+    word-spacing: 5px;
+    color:#f9f9f9;
+}
+.divp{
+    width: 60%;
+    height: 450px;
+    position: absolute;
+    right: 8px;
+    top: 16%;
+}
+.divp p{
+    color:#f9f9f9;
+    font-size: 20px;
+}
+.box1{
+    position: absolute;
+    right: 120px;
+    bottom: 0px;
+    color:#f9f9f9;
+    background: #e38788 ;
+    padding: 5px;
+    border-radius: 14px;
+    text-decoration: none;
+}
+/*end selection 3*/
+/*start footer*/
+footer{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+footer div{
+    padding-top: 25px;
+}
+.groupimg{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin: auto;
+}
+.divimg{
+    position: absolute;
+    left: 0;
+}
+.divimg1{
+    position: absolute;
+    left: 26%;
+}
+.divimg2{
+    position: absolute;
+    right: 26%;
+}
+.divimg3{
+    position: absolute;
+    right: 0;
+}
+footer h3{
+    text-align: center;
+    color: #000;
+}
+.lasth2{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+}
+.lasth2 h2{
+    color: #000;
+    text-align: center;
+    font-size: 35px;
+    word-spacing: 20px;
+}
+/* end footer*/
